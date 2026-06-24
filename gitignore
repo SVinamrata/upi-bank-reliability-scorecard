@@ -1,0 +1,24 @@
+# Raw NPCI data files (download directly from npci.org.in)
+Remitter_Raw/
+Beneficiary_Raw/
+
+# Master compiled data (regenerate by running compile_fixed.py)
+Master_Data.xlsx
+Master_Data.csv
+
+# SQLite database (regenerate from Master_Data.csv)
+*.db
+
+# Exported CSVs (regenerate by running queries.sql)
+DB/
+
+# Mac system files
+.DS_Store
+__MACOSX/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Excel temp files
+~$*.xlsx
