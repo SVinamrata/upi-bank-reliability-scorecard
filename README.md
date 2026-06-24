@@ -36,7 +36,6 @@ NPCI publishes monthly data showing how often each bank causes a technical failu
 
 | Task | Tool |
 |------|------|
-| Data pipeline / ETL | Python (compile_fixed.py) |
 | Data analysis | SQL (SQLite via DB Browser) |
 | Optimisation, charts, scorecard | Excel for Mac with Solver |
 
