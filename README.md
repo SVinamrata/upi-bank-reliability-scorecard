@@ -37,8 +37,8 @@ NPCI publishes monthly data showing how often each bank causes a technical failu
 | Task | Tool |
 |------|------|
 | Data analysis | SQL (SQLite via DB Browser) |
-| Optimisation, charts, scorecard | Excel for Mac with Solver |
-
+| Modelling, charts, scorecard | Excel for Mac with Solver |
+| Interactive dashboard | Power BI Desktop |
 Python was used only for file compilation and is not part of any deliverable. All analysis and optimisation is in SQL and Excel.
 
 ---
@@ -70,6 +70,21 @@ upi-bank-reliability-scorecard/
     ├── pareto_chart.png         — Concentration analysis
     └── scorecard.png            — Bank grading scorecard
 ```
+
+---
+
+## Power BI Dashboard
+
+An interactive dashboard built in Power BI Desktop visualising:
+- Bank reliability rankings by average TD rate
+- Estimated failed throughput concentration by bank
+- System-wide TD trend from March 2024 to February 2026
+- KPI cards: worst bank (1.26%), best bank (0.03%), 
+  total exposure (Rs 1,99,880 Cr), total spikes (32)
+
+View: Download `UPI_Bank_Reliability_Dashboard.pdf` for a static view  
+Interact: Download `UPI_Bank_Reliability_Dashboard.pbix` and open in 
+free Power BI Desktop
 
 ---
 
